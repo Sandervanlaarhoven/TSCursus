@@ -1,0 +1,74 @@
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.rowContainer, .rowContainerUnEven {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.rowContainerUnEven .item2 {
+  flex-grow: 3;
+}
+
+.rowContainerUnEven .item1 {
+  flex-grow: 2;
+}
+
+.columnContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.columnContainer .item1, .columnContainer .item2, .columnContainer .item3 {
+  width: 100%;
+}
+
+.item1 {
+  flex-grow: 1;
+  display: flex;
+  background-color: aquamarine;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 10px
+}
+
+.item2 {
+  flex-grow: 1;
+  display: flex;
+  background-color: yellowgreen;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 10px
+}
+
+.item3 {
+  flex-grow: 1;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 10px
+}
