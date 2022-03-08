@@ -20,12 +20,15 @@ export enum Page {
   Info8 = "Uitleg deel 8",
   Info9 = "Uitleg deel 9",
   Info10 = "Uitleg deel 10",
+  Info11 = "Uitleg deel 11",
   ExampleAss10 = "Voorbeeld Opdracht 10",
   Example2Ass10 = "Voorbeeld 2 Opdracht 10",
   ExampleAss11 = "Voorbeeld Opdracht 11",
   ExampleAss12 = "Voorbeeld Opdracht 12",
+  ExampleAss13 = "Voorbeeld Opdracht 13",
   Ass11 = "Opdracht 11",
   Ass12 = "Opdracht 12",
+  Ass13 = "Opdracht 13",
 }
 
 export enum HairColor {

@@ -27,6 +27,8 @@ import ExampleAss11 from "./Assignments/Opdracht11/Example";
 import ExampleAss12 from "./Assignments/Opdracht12/Example";
 import Info10 from "./InfoComponents/Info10";
 import Info9 from "./InfoComponents/Info9";
+import Opdracht13 from "./Assignments/Opdracht13";
+import Info11 from "./InfoComponents/Info11";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<Page>(Page.Info1);
@@ -57,6 +59,8 @@ export default function App() {
     Page.Info10,
     Page.ExampleAss12,
     Page.Ass12,
+    Page.Info11,
+    Page.Ass13,
   ];
   const PageList = () => {
     return (
@@ -114,6 +118,10 @@ export default function App() {
     }
     case Page.Info10: {
       PageComponent = <Info10 />;
+      break;
+    }
+    case Page.Info11: {
+      PageComponent = <Info11 />;
       break;
     }
     case Page.Ass1: {
@@ -178,6 +186,10 @@ export default function App() {
     }
     case Page.Ass12: {
       PageComponent = <Opdracht12 />;
+      break;
+    }
+    case Page.Ass13: {
+      PageComponent = <Opdracht13 />;
       break;
     }
     default:
